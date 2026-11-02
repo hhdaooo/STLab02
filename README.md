@@ -33,20 +33,17 @@ Bước 4: Thực thi bộ kiểm thử:
 
 !python test_runner.py
 
+Sau khi script chạy xong:
 
-(Kết quả PASS/FAIL sẽ in ra màn hình.).
+Console sẽ in ra tổng số lượng PASS/FAIL.
+
+Truy cập thư mục reports/ để xem file test_report.xlsx và test_execution.csv.
 
 Bước 5: Tải báo cáo về máy:
 
 from google.colab import files
 files.download("reports/test_report.xlsx")
 
-Bước 4: Xem kết quả (Test Reports)
-Sau khi script chạy xong:
-
-Console sẽ in ra tổng số lượng PASS/FAIL.
-
-Truy cập thư mục reports/ để xem file test_report.xlsx và test_execution.csv.
 
 4. Ghi chú Bảo mật (Security Notes)
 
