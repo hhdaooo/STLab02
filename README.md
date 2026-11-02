@@ -45,7 +45,7 @@ from google.colab import files
 files.download("reports/test_report.xlsx")
 
 
-4. Ghi chú Bảo mật (Security Notes)
+3. Ghi chú Bảo mật (Security Notes)
 
 Dự án này được thiết lập chạy in-memory và không yêu cầu bất kỳ API Key, Database Credentials hay Access Token thực tế nào.
 
